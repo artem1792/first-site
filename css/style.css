@@ -194,6 +194,11 @@ h1, h2 {
 
 
 /* форма */
+#contact-form {
+    margin-top: 20px;
+    margin-left: 820px;
+}
+
 #contact-form input[type="text"] {
     height: 20px;
     width: 250px;
@@ -233,6 +238,8 @@ h1, h2 {
 #contact-form select {
     border: white solid 1px;
     background-color: rgb(0,168,142);
+    width: 263px;
+    height: 30px;
 }
 
 #contact-form textarea {
