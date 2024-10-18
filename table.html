@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблицы и формы</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <table class="table-example">
+        <caption>Счет</caption>
+        <thead>
+            <tr>
+                <th>Наименование</th>
+                <th>Цена</th>
+                <th>Количество</th>
+                <th>Стоимость</th>
+                <th>Итог</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ручка</td>
+                <td>50руб.</td>
+                <td>5шт.</td>
+                <td>250руб.</td>
+                <td rowspan="3">410руб.</td>
+            </tr>
+            <tr>
+                <td>Карандаш</td>
+                <td>10руб.</td>
+                <td>10шт.</td>
+                <td>100руб.</td>
+            </tr>
+            <tr>
+                <td>Линейка</td>
+                <td>20руб.</td>
+                <td>3шт.</td>
+                <td>60руб.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <form id="form-example">
+        <label for="login">Введите логин</label><br>
+        <input type="text" id="login" placeholder="Логин" required><br>
+        <label for="pass">Введите пароль</label><br>
+        <input type="password" id="pass" placeholder="Пароль" required><br>
+        <input type="checkbox" id="agreement">
+        <label for="agreement">Запомнить меня на этом компьютере</label><br>
+
+        <input type="radio" id="male" name="gender" checked>
+        <label for="male">муж.</label>
+        <input type="radio" id="female" name="gender">
+        <label for="female">жен.</label><br>
+
+        <input type="submit" value="Войти">
+    </form>
+</body>
+</html>

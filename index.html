@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>первый сайт</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Евгений Касперский</h1>
+        <img src="img/kaspersky-logo-v2.svg" alt="логотип" width="400px">
+        <nav class="nav">
+            <ul>
+                <li>
+                    <a href="#introduction">Введение</a>
+                </li>
+                <li>
+                    <a href="#information">Информация</a>
+                </li>
+                <li>
+                    <a href="#form">Обратная связь</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="introduction" id="introduction">
+            <h2>Введение</h2>
+            <img class="avatar" src="img/ek-answers-questions-featured.jpg" alt="фото" width="500px">
+            <p>Известный во всем мире эксперт по кибербезопасности и успешный предприниматель.</p>
+            <p>Стал одним из основателей крупнейшей в мире частной компании, занимающейся разработкой защитных решений.</p>
+            <p>Эксперт в области информационной безопасности с богатым опытом разработки защитных решений.</p>
+            <p>Доктор наук, Плимутский университет, Великобритания.</p>
+            <blockquote>
+                Все имеют право на ошибки, куда без них? Мы же постоянно запускаем новые проекты, проверяем гипотезы. Какие-то работают, какие-то нет. В компании действует правило: совершай сколько угодно ошибок, если они разные. Но если наступишь на одни и те же грабли дважды, третьего раза уже не будет.
+                <cite>Евгений Касперский для сайта GQ.</cite>
+            </blockquote>
+        </section>
+        <section class="information" id="information">
+            <h2>Информация</h2>
+            <ol class="page-list">
+                <li>
+                    <a href="article1.html">Биография</a>
+                </li>
+                <li>
+                    <a href="achievments.html">Основные достижения/изобретения</a>
+                </li>
+                <li>
+                    <a href="facts.html">Интересные факты</a>
+                </li>
+                <li>
+                    <a href="terms.html" class="terms">Список терминов</a>
+                </li>
+            </ol>
+        </section>
+        <section class="form" id="form">
+            <h2>Обратная связь</h2>
+            <form id="contact-form">
+                <div class="form_item">
+                    <label for="topic">Тема</label><br>
+                    <select name="topic" id="topic">
+                        <option value="1">Заказать услугу</option>
+                        <option value="2">Оставить отзыв/замечание</option>
+                        <option value="3">Предложить сотрудничество</option>
+                        <option value="4">Другое</option>
+                    </select><br>
+                </div>
+                <div class="form_item">
+                    <label for="name">Имя</label><br>
+                    <input type="text" name="name" id="name" required><br>
+                </div>
+                <div class="form_item">
+                    <label for="name">E-mail</label><br>
+                    <input type="email" name="name" id="name" required><br>
+                </div>
+                <div class="form_item">
+                    <label for="name">Телефон</label><br>
+                    <input type="tel" name="name" id="name" required><br>
+                </div>
+                <div class="form_item">
+                    <label for="name">Дата</label><br>
+                    <input type="date" name="name" id="name" required><br>
+                </div>
+                <div class="form_item">
+                    <label for="textarea">
+                        Текст сообщения
+                    </label><br>
+                    <textarea name="textarea" id="textarea" rows="3"></textarea><br>
+                </div>
+                <div class="form_item">
+                    <input type="checkbox" id="agreement">
+                    <label for="agreement">Запомнить меня на этом компьютере</label><br>
+                </div>
+                <div class="form_item">
+                    <input type="radio" id="male" name="gender" checked>
+                    <label for="male">муж.</label>
+                    <input type="radio" id="female" name="gender">
+                    <label for="female">жен.</label><br>
+                </div>
+                <div class="form_item">
+                    <input type="submit">
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <a href="https://vk.com/durov" target="_blank">Бобровский Артём</a>, 2024</p>
+        <p>
+            <a href="tel:+79058408923" target="_blank">+79058408923</a>
+        </p>
+        <p>
+            <a href="mailto:abc@sample.com">abc@sample.com</a>
+        </p>
+    </footer>
+    <footer>
+        <img src="img/wikipedia.svg" alt="логотип википедии" width="40px">
+        <p>
+            <a href="https://clck.ru/3DcEKc" target="_blank">Источник информации</a>
+        </p>
+    </footer>
+    <footer>
+        <a href="table.html">Таблицы</a>
+    </footer>
+    
+</body>
+</html>
