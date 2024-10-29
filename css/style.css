@@ -195,8 +195,7 @@ h1, h2 {
 
 /* форма */
 #contact-form {
-    margin-top: 20px;
-    margin-left: 820px;
+    text-align: center;
 }
 
 #contact-form input[type="text"] {
